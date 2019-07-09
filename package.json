@@ -1,0 +1,20 @@
+{
+  "name": "image-search-bot",
+  "version": "0.1.0",
+  "description": "A simple discord image searching bot",
+  "main": "index.js",
+  "author": "Daniel Garcia",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "env-cmd -f ./config/dev.env nodemon src/app.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "nodemon": "^1.19.1"
+  }
+}
